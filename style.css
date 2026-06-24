@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+    display:flex;
+    justify-content:center;
+    padding-top:50px;
+}
+
+.container{
+    width:600px;
+}
+
+h1{
+    text-align:center;
+}
+
+.input-box{
+    display:flex;
+    gap:10px;
+    margin:20px 0;
+}
+
+input,button{
+    padding:10px;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+li{
+    background:#1e293b;
+    margin:10px 0;
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.completed{
+    text-decoration:line-through;
+    color:lightgreen;
+}
